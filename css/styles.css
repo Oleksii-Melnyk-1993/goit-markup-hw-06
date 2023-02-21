@@ -583,7 +583,9 @@ body {
   outline: none;
 }
 .button-submit {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--font-white-color);
   background-color: var(--secondary-color);
   border: none;
@@ -592,11 +594,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  gap: 16px;
 }
 .subcribe-icon {
-  position: absolute;
-  top: 50%;
   fill: var(--font-white-color);
-  right: 24px;
-  transform: translateY(-50%);
 }
