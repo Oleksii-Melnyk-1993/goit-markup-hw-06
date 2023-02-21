@@ -551,3 +551,52 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+
+.subcribe-input {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.input-email {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 264px;
+  padding: 16px;
+  color: var(--font-white-color);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+.input-email::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+.input-email:focus {
+  background: transparent;
+  outline: none;
+}
+.button-submit {
+  position: relative;
+  color: var(--font-white-color);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 4px;
+  width: 165px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.subcribe-icon {
+  position: absolute;
+  top: 50%;
+  fill: var(--font-white-color);
+  right: 24px;
+  transform: translateY(-50%);
+}
