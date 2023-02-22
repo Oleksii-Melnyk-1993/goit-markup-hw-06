@@ -420,28 +420,32 @@
             <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
           </svg>
         </button>
-        <p>Leave your contacts and we will call you back</p>
+        <p class="modal-header">
+          Leave your contacts and we will call you back
+        </p>
         <form>
-          <label for="user-name">Name</label>
+          <label for="user-name" class="modal-label"
+            ><span class="input-text">Name</span></label
+          >
           <input type="name" id="user-name" class="modal-input" />
-          <label for="user-phone">Phone</label
+          <label for="user-phone"><span class="input-text">Phone</span></label
           ><input
             type="tel"
             name="user-phone"
             id="user-phone"
             class="modal-input"
-          /><label for="user-email">Email</label
+          /><label for="user-email"><span class="input-text">Email</span></label
           ><input
             type="email"
             name="user-email"
             id="user-email"
             class="modal-input"
-          /><label for="user-comment">Comment</label
+          /><label for="user-comment"
+            ><span class="input-text">Comment</span></label
           ><textarea
             name="user-comment"
             id="user-comment"
-            cols="30"
-            rows="10"
+            placeholder="Text input"
           ></textarea>
         </form>
       </div>
