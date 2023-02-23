@@ -460,7 +460,7 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
+          <div class="comment-field">
             <label for="user-comment" class="input-text">Comment</label
             ><textarea
               class="user-message"
@@ -468,6 +468,22 @@
               id="user-comment"
               placeholder="Text input"
             ></textarea>
+          </div>
+          <div class="policy-field">
+            <input
+              class="policy-check hidden"
+              name="policy-checkbox"
+              type="checkbox"
+              id="policy-checkbox"
+              value="true"
+            />
+            <label for="policy-checkbox" class="policy-text"
+              ><span
+                ><svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-Vector"></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="policy-link" href="">Privacy Policy</a></label
+            >
           </div>
           <button type="submit" class="submit-button">Send</button>
         </form>
